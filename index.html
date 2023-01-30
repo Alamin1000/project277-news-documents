@@ -28,48 +28,67 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
 
       <!-- header-section -->
       <header class="header-section">
-        <div class="container">
-          <div class="header-section__inner">
-            <a href="index.html" class="header__logo0">
-              <img src="images/logo.svg" alt="" />
-            </a>
-            <div class="header__right">
-              <div class="main-menu">
-                <ul>
-                  <li><a class="active" href="#">Home</a></li>
-                  <li><a href="#">Documents</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
+        <div class="header-in">
+          <div class="container">
+            <div class="header-section__inner">
+              <a href="index.html" class="header__logo">
+                <img src="images/logo.svg" alt="" />
+              </a>
+              <div class="header__right">
+                <div class="main-menu d-lg-flex d-none">
+                  <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="documents.html">Documents</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="language-dropdown">
+                  <a href="#" data-bs-toggle="dropdown">
+                    <div class="flag">
+                      <img src="images/flag-uk.png" alt="" />
+                    </div>
+                    <i class="far fa-chevron-down"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="flag">
+                            <img src="images/flag-uk.png" alt="" />
+                          </div>
+                          <span class="txt">UK</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="flag">
+                            <img src="images/flag-uk.png" alt="" />
+                          </div>
+                          <span class="txt">US</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="#" class="offcanvas-open d-lg-none">
+                  <i class="far fa-bars"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -111,8 +130,8 @@
         <section class="news-section">
           <div class="container">
             <div class="news-section__inner">
-              <div class="news-section__title sec-title">
-                <div class="h-filter">
+              <div class="news-section__title">
+                <div class="h-filter mt-0">
                   <div class="h-filter__inputs">
                     <div class="h-filter__input">
                       <div class="icon">
@@ -125,12 +144,106 @@
                         <img src="images/card-collection.svg" alt="" />
                       </div>
                       <select class="input nice-select">
-                        Institutions / Categories
+                        <option>Institutions / Categories</option>
+                        <option>Institutions / Categories</option>
+                        <option>Institutions / Categories</option>
                       </select>
                     </div>
                   </div>
                   <button class="h-filter__submit">Search</button>
                 </div>
+              </div>
+
+              <div class="title-linear">
+                <h2 class="h2 mb-0">Latest News</h2>
+                <a href="#" class="text-button">View All</a>
+              </div>
+
+              <div class="news-grid">
+                <!-- news-card -->
+                <div class="news-card">
+                  <div class="news-card__image">
+                    <img src="images/news-1.png" alt="" />
+                  </div>
+                  <div class="news-card__body">
+                    <h3>
+                      MINISTER OF JUSTICE AND ATTORNEY GENERAL VISITS THE
+                      NATIONAL COMMISSION FOR HUMAN RIGHTS
+                    </h3>
+                    <p>
+                      On Tuesday, 13 December 2022, Minister of Justice/Attorney
+                      General, Dr. Emmanuel Ugirashebuja visited the National
+                      Commission for Human Rights and…
+                    </p>
+                    <div class="news-card__body__bottom">
+                      <a href="#" class="txt-button">
+                        <span class="txt">Learn More</span>
+                        <img
+                          src="images/long-arrow-right-blue.svg"
+                          alt=""
+                          class="arr"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- news-card-end -->
+                <!-- news-card -->
+                <div class="news-card">
+                  <div class="news-card__image">
+                    <img src="images/news-2.png" alt="" />
+                  </div>
+                  <div class="news-card__body">
+                    <h3>
+                      RWANDA JOINED THE WORLD TO CELEBRATE INTERNATIONAL
+                      ANTI-CORRUPTION DAY
+                    </h3>
+                    <p>
+                      On December 9, 2022, Rwanda joined the World to celebrate
+                      International Anti-Corruption day under the theme
+                      "Promoting Anti-Corruption Values for…
+                    </p>
+                    <div class="news-card__body__bottom">
+                      <a href="#" class="txt-button">
+                        <span class="txt">Learn More</span>
+                        <img
+                          src="images/long-arrow-right-blue.svg"
+                          alt=""
+                          class="arr"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- news-card-end -->
+                <!-- news-card -->
+                <div class="news-card">
+                  <div class="news-card__image">
+                    <img src="images/news-3.png" alt="" />
+                  </div>
+                  <div class="news-card__body">
+                    <h3>
+                      ALTERNATIVE DISPUTE RESOLUTION AND CRIMINAL JUSTICE
+                      POLICIES WILL SIGNIFICANTLY PROMOTE RULE OF LAW
+                    </h3>
+                    <p>
+                      On Tuesday 10th January 2023, Justice Sector member
+                      institutions in partnership with Development Partners
+                      launched two policies: one for Alternative…
+                    </p>
+                    <div class="news-card__body__bottom">
+                      <a href="#" class="txt-button">
+                        <span class="txt">Learn More</span>
+                        <img
+                          src="images/long-arrow-right-blue.svg"
+                          alt=""
+                          class="arr"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- news-card-end -->
               </div>
             </div>
           </div>
@@ -140,7 +253,29 @@
       <!-- main end -->
 
       <!-- footer-section -->
-      <footer class="footer-section"></footer>
+      <footer class="footer-section">
+        <div class="container">
+          <div class="footer-section__inner">
+            <div class="footer__top__ln">
+              <a href="index.html" class="footer__logo__b">
+                <img src="images/logo.svg" alt="" />
+              </a>
+              <ul class="footer__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="document.html">Documents</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__bottom">
+              <p class="copy-right">&copy; Copyright 2023</p>
+              <ul class="fl-menu">
+                <li><a href="#">Terms & conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
       <!--End footer-section -->
     </div>
     <!-- main-wrap -->

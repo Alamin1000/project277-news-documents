@@ -1,22 +1,214 @@
 
 
 @media (max-width: 1399px) {
- 
+    .header__logo {
+        width: 60px;
+    }
+    .header-in {
+        padding: 25px 0;
+    }
+    body {
+        font-size: 14px;
+    }
+    .main-menu ul li a {
+        font-size: 14px;
+    }
+    .main-menu ul {
+        gap: 20px;
+    }
+    .language-dropdown a .flag {
+        height: 23px;
+        width: 23px;
+        padding: 1px;
+    }
+
+
+    .hero__content__title .h1 {
+        font-size: 43px;
+    }
+    .hero__content__title {
+        margin: 0 0 50px;
+    }
+    .default-button {
+        font-size: 16px;
+        min-height: 46px;
+        padding: 8px 19px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .hero__content .bottom-button {
+        margin: 20px 0 0;
+    }
+    .hero-section {
+        padding: 32px 0;
+    }
+
+
+    .news-section {
+        padding: 90px 0;
+    }
+    .h-filter__submit {
+        min-height: 44px;
+        font-size: 16px;
+        padding: 8px 26px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+    .h-filter__input .icon {
+        width: 18px;
+    }
+    .h-filter__input .input {
+        font-size: 14.5px;
+    }
+    .h-filter__input {
+        gap: 11px;
+    }
+    .h-filter {
+        width: 800px;
+    }
+    .news-section__title {
+        margin: 0 0 70px;
+    }
+    .h2 {
+        font-size: 30px;
+    }
+    .text-button {
+        font-size: 14.5px;
+    }
+    .title-linear {
+        margin: 0 0 22px;
+    }
+    .news-grid {
+        grid-gap: 30px;
+    }
+    .news-card__body h3 {
+        font-size: 14.5px;
+    }
+    .news-card__body p {
+        font-size: 14px;
+    }
+    .news-card__body {
+        padding: 13px 17px 18px;
+    }
+    .news-card__body__bottom .txt-button {
+        font-size: 14px;
+        gap: 14px;
+    }
+    .footer__top__ln {
+        padding: 30px 0;
+        gap: 15px;
+    }
+    .footer__logo__b {
+        width: 75px;
+        margin: 0 0 17px;
+    }
+    .footer__top__ln {
+        padding: 22px 0;
+        gap: 15px;
+    }
+    .footer__bottom {
+        padding: 25px -0 35px;
+    }
+
 }
 
 
 @media (max-width: 1199px) {
- 
+    .hero__content {
+        width: 50%;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .header__right {
+        gap: 15px;
+    }
+
+
+    .news-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 
 @media (max-width: 768px) {
- 
+    .header__logo {
+        width: 45px;
+    }
+    .header-in {
+        padding: 10px 0;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.171);
+    }
+    .header__right {
+        gap: 10px;
+    }
+
+    .hero-section {
+        padding: 30px 0;
+    }
+    .hero__content__title .h1 {
+        font-size: 30px;
+    }
+    .hero__content__title {
+        margin: 0 0 30px;
+    }
+    .hero-section__inner {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .hero__content {
+        gap: 30px;
+        width: 100%;
+    }
+    .hero__image-right {
+        padding: 0 6%;
+        width: 100%;
+        order: -1;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+
+    .news-section {
+        padding: 50px 0;
+    }
+    .h-filter {
+        padding: 5px 20px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h-filter__inputs {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0 0px 0 0px;
+    }
+    .h-filter__input {
+        padding: 10px 0;
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #C0C0C0;
+    }
+    .h-filter__submit {
+        min-width: 200px;
+    }
+
+    .news-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .h2 {
+        font-size: 25px;
+    }
+    .news-section__title {
+        margin: 0 0 50px;
+    }
+    .footer__menu {
+        gap: 16px;
+    }
+    .footer__bottom {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
 
 
@@ -25,6 +217,11 @@
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 370px) {
+    .hero__content__title .h1 {
+        font-size: 26px;
+    }
+    .hero__content__title {
+        margin: 0 0 25px;
+    }
 }
