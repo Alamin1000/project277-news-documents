@@ -479,6 +479,10 @@ p:last-child{
   background: var(--theme__color1);
   font-family: var(--dm-sans);
   border: 1px solid transparent;
+  transition: 0.3s;
+}
+.h-filter__submit:hover {
+  background: #002fff;
 }
 
 .news-group {
