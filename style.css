@@ -503,6 +503,8 @@ p:last-child{
   flex-direction: column;
   background: #FCFCFC;
   border-radius: 14px;
+  position: relative;
+  z-index: 1;
 }
 .news-grid.news-grid--4 .news-card {
   background: transparent;
