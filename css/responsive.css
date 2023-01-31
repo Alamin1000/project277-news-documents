@@ -64,6 +64,7 @@
         gap: 11px;
     }
     .h-filter {
+        margin-top: 45px;
         width: 800px;
     }
     .news-section__title {
@@ -80,6 +81,9 @@
     }
     .news-grid {
         grid-gap: 30px;
+    }
+    .news-grid.news-grid--4 {
+        grid-column-gap: 20px;
     }
     .news-card__body h3 {
         font-size: 14.5px;
@@ -110,12 +114,45 @@
         padding: 25px -0 35px;
     }
 
+
+
+    .doc-table table td {
+        font-size: 14px;
+        padding: 8px;
+        height: 55px;
+    }
+    .doc-table table thead td {
+        font-size: 13.5px;
+        height: 40px;
+    }
+    .doc-table--1 td:nth-child(1) {
+        padding-left: 20px;
+        padding-right: 12px;
+    }
+    .td-file-title .icon {
+        width: 19px;
+    }
+    .doc-download-btn .icn {
+        width: 14px;
+    }
+    .doc-download-btn {
+        min-height: 35px;
+        padding: 4px 14px;
+        border-radius: 5px;
+        gap: 7px;
+    }
+
+
 }
 
 
 @media (max-width: 1199px) {
     .hero__content {
         width: 50%;
+    }
+
+    .doc-table--1 td:nth-child(2) {
+        width: 46.1%;
     }
 }
 
@@ -128,6 +165,21 @@
 
     .news-grid {
         grid-template-columns: repeat(2,1fr);
+    }
+    .news-grid.news-grid--4 {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .doc-table--1 td:nth-child(2) {
+        width: 42%;
+    }
+    .doc-table--1 td:nth-child(1) {
+        padding-left: 12px;
+        padding-right: 3px;
+    }
+
+    .doc-table--1 td:nth-child(2) {
+        width: 36%;
     }
 }
 
@@ -195,6 +247,13 @@
 
     .news-grid {
         grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+    .news-grid.news-grid--4 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .news-group {
+        margin: 0 0 25px;
     }
     .h2 {
         font-size: 25px;
@@ -209,11 +268,19 @@
         flex-direction: column;
         gap: 15px;
     }
+    .footer__top {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+        padding: 30px 0;
+    }
 }
 
 
 @media (max-width: 575px) {
- 
+    .h-filter {
+        margin-top: 30px;
+    }
 }
 
 
